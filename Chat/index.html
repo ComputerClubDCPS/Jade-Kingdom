@@ -30,7 +30,7 @@
 
     const result = await response.json();
     console.log(result);
-    document.getElementById("sup").innerHTML = result;
+    document.getElementById("sup").innerhtml =  result;
   } catch (error) {
     console.error(error.message);
   }
