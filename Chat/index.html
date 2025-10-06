@@ -37,7 +37,9 @@
     console.log(result);
     document.getElementById("Sup").innerHTML = JSON.stringify(result[0].sent_by);
     document.getElementById("Yo").innerHTML = JSON.stringify(result[0].message_text);
+    catch (error) {
     console.error(error.message);
+  }
   }
 }
       </script>
